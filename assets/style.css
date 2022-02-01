@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
+ .navbar-static-top {
+  margin: 0;
+  border: 0;
+  color: #fff;
+}
+
+.navbar-top {
+  background: #115c9b;
+  font-size: 12px;
+  padding: 4px 0;
+}
+.navbar-top .list-inline {
+  margin-bottom: 0;
+}
+.navbar-top .header-contact li {
+  margin-right: 15px;
+}
+.navbar-top .header-contact li .fa {
+  margin-right: 5px;
+}
+
+.navbar-main {
+  margin-bottom: 0;
+  color: #fff;
+  background: #1f76bd;
+}
+.navbar-main .navbar-brand {
+  border-bottom: none !important;
+}
+.navbar-main a:hover,
+.navbar-main a:active,
+.navbar-main a:focus,
+.navbar-main a.is-active {
+  background: none !important;
+  color: inherit;
+  border-bottom: 2px solid #fff;
+}
+.navbar-main .submenu {
+  position: absolute;
+  list-style: none;
+  background: #1f76bd;
+  padding: 0;
+  width: 150px;
+  left: -35px;
+  visibility: hidden;
+  top: 85px;
+  -moz-transition: all, 0.05s;
+  -o-transition: all, 0.05s;
+  -webkit-transition: all, 0.05s;
+  transition: all, 0.05s;
+}
+.navbar-main .submenu li {
+  border-top: 1px solid #185b91;
+}
+.navbar-main .submenu li:hover {
+  background: #185b91;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+.navbar-main .submenu li a {
+  width: 100%;
+  border-bottom: none;
+  text-decoration: none;
+  padding: 5px 25px;
+  display: block;
+  font-size: 16px;
+}
+.navbar-main li a {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  padding: 20px 15px;
+  border-bottom: 2px solid transparent;
+}
+.navbar-main li:hover .submenu {
+  top: 62px;
+  visibility: visible;
+  -moz-transition: all, 0.25s;
+  -o-transition: all, 0.25s;
+  -webkit-transition: all, 0.25s;
+  transition: all, 0.25s;
+}
+.navbar-main .icon-bar {
+  background: rgb(13, 216, 216);
+
+
+}
+
+.carousel-home img {
+  width: 100%;
+}
+.carousel-home .carousel-control {
+  background: #1f76bd;
+  height: 80px;
+  width: 40px;
+  top: 50%;
+  margin-top: -40px;
+  -moz-transition: width, 0.3s;
+  -o-transition: width, 0.3s;
+  -webkit-transition: width, 0.3s;
+  transition: width, 0.3s;
+}
+.carousel-home .carousel-control .fa {
+  font-size: 2.5em;
+  padding-top: 12px;
+}
+.carousel-home .carousel-control:hover {
+  width: 50px;
+}
+.carousel-home .carousel-caption {
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
+.carousel-home .carousel-title {
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.carousel-home .carousel-subtitle {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'IM Fell Great Primer', serif;
+}
+.carousel-home .btn {
+  margin-top: 30px;
+}
+owl-theme .owl-dots .owl-dot span {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #fff
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #fff none repeat scroll 0 0;
+}
+
+
+/*
+..wrapper section>h2 {
+    color: #3c354e;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 115px auto 50px;
+    position: relative;
+    width: -moz-fit-content;
+    text-transform: uppercase;
+}
+*/
+
+
+
+.our_activity {
+  margin-bottom: 140px;
+  text-align: center;
+  margin-top:80px;
+
+}
+.our_activity  h1{
+  color: #1f76bd;
+  text-decoration: underline;
+  color: #125eeb
+  
+}
+.our_activity .single-Promo {
+  border-radius: 7px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  margin: 100px 35px 0;
+  padding: 40px 45px;
+  position: relative;
+}
+
+.our_activity .single-Promo .promo-icon {
+  /* left: 0; */
+  position: absolute;
+  text-align: center;
+  top: -40px;
+  width: 50%;
+  height: 50%;
+}
+
+.our_activity .single-Promo h2 {
+  border-radius: 60px;
+  margin: 10px auto 38px;
+  position: relative;
+  width: -moz-fit-content;
+}
+
+.our_activity .single-Promo h2::before {
+  background:blue none repeat scroll 0 0;
+  bottom: -5px;
+  content: "";
+  height: 2px;
+  left: 20%;
+  position: absolute;
+  width: 60%;
+}
+
+.our_activity .single-Promo h2 a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: palevioletred;
+}
+
+.our_activity .single-Promo p {
+  color: #020101;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.our_activity .single-Promo i {
+  border: 0 solid #000;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+  font-size: 30px;
+  padding: 25px;
+  text-align: center;
+  background: lightskyblue;
+}
+
+.our_activity .single-Promo:hover>h2 a {
+  color: #125eeb;
+}
+
+.our_activity .single-Promo:hover>.promo-icon i {
+  background: #0550f3;
+  color: blue;
+}
+
+.our_activity .single-Promo:hover>h2::before {
+  background: #081fee;
+  /* color: #fff; */
+}
+.our_cuauses{
+  text-align: center;
+}
+.our_cuauses h1{
+color: #125eeb;
+text-decoration: underline;
+}
+.center {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.label {
+  font-family: 'Quantico';
+  text-align: center;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  @media screen and (max-width: $mobile) {
+    flex-direction: column;
+  }
+}
+
+.blog-card {
+  height: 350px;
+  width: 180px;
+  margin-left: 15px;
+  margin-right: 15px;
+    
+  .blog-card__thumbnail {
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .blog-card__details {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.5);
+  }
+  
+  .blog-card__title {
+    font-family: 'Quantico';
+    font-size: 8px;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  .blog-card__description {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 8px;
+    color: gray;
+  }
+  
+  .blog-card__action {
+    background: transparent;
+    border: none;
+    font-family: 'Quantico';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    color:gray;
+    cursor: pointer;
+  }
+
+
+.product-card {
+  width: 220px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.5);
+  
+ .product {
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .product-card__details {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+  }
+  
+  .product-card__title {
+    font-family: 'Quantico';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  .product-card__description {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 11px;
+    color: gray;
+  }
+  
+  .product-card__action {
+    width: 100%;
+    padding: 5px;
+    background: blue;
+    border: 1px solid blue;
+    border-radius: 2px;
+    font-family: 'Quantico';
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+    cursor:pointer;
+  }
